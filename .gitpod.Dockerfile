@@ -6,4 +6,4 @@ RUN sudo sh -c '(echo "#!/usr/bin/env sh" && curl -L https://github.com/lihaoyi/
 
 RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh && \
     sdk install scala && \
-    sdk install sbt
+    sdk install sbt"
